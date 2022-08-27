@@ -51,6 +51,9 @@ fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
 
+# Clear packages_cache to avoid systemapp have mismatch strings id
+rm -rf /data/system/package_cache
+
 #add permission for block_size, mem_type, mem_size nodes to collect diag over QDSS by ODL
 #application by "oem_2902" group
 if [ -e  /sys/devices/platform/soc/6048000.tmc/coresight-tmc-etr/block_size ]
