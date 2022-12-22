@@ -226,6 +226,8 @@ ro.oem_unlock_supported=1
 
 # Perf
 vendor.perf.framepacing.enable=1
+ro.vendor.perf.scroll_opt=0
+ro.vendor.perf.scroll_opt=true
 
 # Performance
 debug.performance.tuning=1
