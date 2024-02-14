@@ -298,7 +298,8 @@ PRODUCT_PACKAGES += \
     init.qti.kernel.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.lahaina.perf.sh
 
 # IPACM
 PRODUCT_PACKAGES += \
