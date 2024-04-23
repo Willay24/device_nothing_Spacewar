@@ -294,6 +294,7 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh \
     init.qti.kernel.rc \
+    init.lahaina.perf.rc \
     init.qti.kernel.sh \
     init.recovery.qcom.rc \
     init.target.rc \
