@@ -30,6 +30,10 @@ vendor.post_boot.parsed=1s
 persist.sys.sf.native_mode=260
 sys.brightness.disable_gamma_conversion=true
 
+# Disable Skia tracing by default
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
+
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
