@@ -353,6 +353,10 @@ $(call inherit-product, hardware/nothing/nt-fwk/nt-fwk.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
+# Pixel Features Spoof (for Google Photos)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sysconfig_features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/sysconfig_features.xml
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
